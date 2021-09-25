@@ -1,0 +1,29 @@
+h3,h5,h2{
+    font-weight: 400;
+}
+
+.search-container{
+    background-color:rgba(0, 0, 0, 0.658) ;
+    text-align: center;
+    line-height: 40px;
+}
+.search-container input{
+    width: 65%;
+}
+
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-left: 100px;
+    
+}
+.product-container{
+    border-right: 1px solid lightgray;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+/* .cart-container{
+    background-color: antiquewhite;
+    height: 200px;
+    border-radius: 4px;
+} */
